@@ -14,10 +14,3 @@ CShape (abstract)
 ```
 
 Each shape has a center point (`CPoint`) and color (`CColor`).
-
-## Build
-
-```bash
-g++ -o shapes Hultin_ShapesCPP.cpp CShape.cpp CPoint.cpp CColor.cpp CCircle.cpp CEllipse.cpp CLine.cpp CRectangle.cpp CSquare.cpp CTriangle.cpp CPolygon.cpp
-./shapes
-```
